@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>game theory | Kayla Cummings</title>
+    <link>https://kscummings.github.io/tags/game-theory/</link>
+      <atom:link href="https://kscummings.github.io/tags/game-theory/index.xml" rel="self" type="application/rss+xml" />
+    <description>game theory</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 28 Dec 2020 12:27:33 -0500</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>game theory</title>
+      <link>https://kscummings.github.io/tags/game-theory/</link>
+    </image>
+    
+    <item>
+      <title>Designing First-mile Transportation Pricing Alliances with Endogenous Demand</title>
+      <link>https://kscummings.github.io/publication/alliance/</link>
+      <pubDate>Mon, 28 Dec 2020 12:27:33 -0500</pubDate>
+      <guid>https://kscummings.github.io/publication/alliance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pricing the COVID-19 Vaccine: A Mathematical Approach</title>
+      <link>https://kscummings.github.io/publication/covid/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://kscummings.github.io/publication/covid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CDC as a Strategic Agent in the Pediatric Vaccine Market</title>
+      <link>https://kscummings.github.io/talk/cdc_informs/</link>
+      <pubDate>Thu, 12 Nov 2020 12:30:00 -0145</pubDate>
+      <guid>https://kscummings.github.io/talk/cdc_informs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Designing Pricing Alliances for First-mile Transportation Systems with Endogenous Demand</title>
+      <link>https://kscummings.github.io/talk/transit/</link>
+      <pubDate>Thu, 12 Nov 2020 12:30:00 -0145</pubDate>
+      <guid>https://kscummings.github.io/talk/transit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Centers for Disease Control and Prevention as a Strategic Agent in the Pediatric Vaccine Market: An Analytical Approach</title>
+      <link>https://kscummings.github.io/publication/cdc/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://kscummings.github.io/publication/cdc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

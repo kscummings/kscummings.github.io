@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>simulation | Kayla Cummings</title>
+    <link>https://kscummings.github.io/tags/simulation/</link>
+      <atom:link href="https://kscummings.github.io/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <description>simulation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 30 Dec 2020 17:43:32 -0500</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>simulation</title>
+      <link>https://kscummings.github.io/tags/simulation/</link>
+    </image>
+    
+    <item>
+      <title>You Liver and You Learn</title>
+      <link>https://kscummings.github.io/project/livers/</link>
+      <pubDate>Wed, 30 Dec 2020 17:43:32 -0500</pubDate>
+      <guid>https://kscummings.github.io/project/livers/</guid>
+      <description>&lt;p&gt;The Organ Procurement and Transplantation Network (OPTN) is in charge of allocating livers as they arrive to wait-listed candidates.
+Consensus among doctors is that a fair policy should prioritize patients whose conditions would deteriorate most quickly without a transplant.
+Current practice prioritizes patients who are most likely to die or become medically unfit for transplant within 3 months.
+
+&lt;a href=&#34;https://lids.mit.edu/people/students/sam-gilmour&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sam Gilmour,&lt;/a&gt;
+ 
+&lt;a href=&#34;https://www.linkedin.com/in/josh-wilde&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Josh Wilde,&lt;/a&gt;
+ and I used machine learning and optimization to explore candidate ranking policies based on projected post-transplant outcomes rather than pre-transplant vitality.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Deliverables&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;liver-poster.pdf&#34;&gt;Poster&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;6_867.pdf&#34;&gt;Final report&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;6867-machine-learning&#34;&gt;6.867 Machine Learning&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Fall 2019&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A policy based on post-transplant outcomes necessarily accounts for organ features as well as patient features.
+We formulated a maximum weighted matching model in the lineage of work by 
+&lt;a href=&#34;https://doi.org/10.1287/opre.1120.1138&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bertsimas &lt;em&gt;et al.&lt;/em&gt;&lt;/a&gt;
+
+The weights were equal to the gain that the transplant system would receive by matching an organ to a particular patient, quantified by organ acceptance likelihood and projected post-transplant survival.
+We further constrained the model by including demographic fairness considerations.
+We constructed a Lagrangean relaxation of the fairness constraints to obtain fairness-adjusted weights in a classical matching problem.&lt;/p&gt;
+&lt;img src=&#34;featured.png&#34; width=&#34;300\%&#34;&gt;
+&lt;p&gt;We required a method for which system benefits could be estimated for newly observed patient-organ pairs.
+We obtained these estimated benefits as the solutions to a standard OLS regression problem, in which patient and organ features predicted fairness-adjusted weights to the above matching problem.&lt;/p&gt;
+&lt;p&gt;We iterated with a dynamic policy that changes according to the patients on the waitlist.
+We hypothesized that the fairness-adjusted weights depend on the characteristics of the current patient waitlist and the organs available for transplant.
+Our strategy was to predict this dependence by regressing over batch-level organ and patient features to predict one fairness-adjusted weight in the static priority map.
+Collectively, the learned parameters formed a dynamic policy map generator that yielded fairness-adjusted weights for a given batch of patients and organs.&lt;/p&gt;
+&lt;p&gt;We built a model that simulates liver allocation and survival outcomes to benchmark the performance of our policies
+against existing ranking policies. Simulations showed that our policies resulted in approximately 1%
+more transplants and consequently 1% fewer pre-transplant deaths, with minimal effect on post-transplant
+morbidity and with continued fair allocation for targeted demographics. Furthermore, our
+dynamic policy performed at par with the static policy, indicating that its additional computational
+overhead may be unnecessary.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

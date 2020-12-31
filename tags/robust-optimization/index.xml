@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>robust optimization | Kayla Cummings</title>
+    <link>https://kscummings.github.io/tags/robust-optimization/</link>
+      <atom:link href="https://kscummings.github.io/tags/robust-optimization/index.xml" rel="self" type="application/rss+xml" />
+    <description>robust optimization</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>robust optimization</title>
+      <link>https://kscummings.github.io/tags/robust-optimization/</link>
+    </image>
+    
+    <item>
+      <title>Are you sure that goes there?</title>
+      <link>https://kscummings.github.io/project/unhcr/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://kscummings.github.io/project/unhcr/</guid>
+      <description>&lt;p&gt;In this project, 
+&lt;a href=&#34;https://www.linkedin.com/in/josh-wilde&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Josh Wilde&lt;/a&gt;
+ and I used robust optimization and machine learning to capture emergency demand uncertainty in the joint humanitarian facility location and inventory pre-positioning problem.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Deliverables:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;unhcr_poster.pdf&#34;&gt;Poster&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;15_094.pdf&#34;&gt;Final report&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;15094j-robust-modeling-optimization-and-computation&#34;&gt;15.094J Robust Modeling, Optimization and Computation&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Spring 2019&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://doi.org/10.1016/j.jom.2016.05.009&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jahre &lt;em&gt;et al.&lt;/em&gt;&lt;/a&gt;
+ model the humanitarian network design problem for the UNHCR as a two-stage stochastic optimization problem. The first stage is a facility location problem, and the second stage is a stock pre-positioning problem that depends on the selected facility locations.&lt;/p&gt;
+&lt;p&gt;Josh and I augmented this work using robust optimization, whose theory seeks decisions that successfully navigate the trade-off between expected optimality and mitigation of parametric uncertainty.
+Emergency humanitarian demand can wildly oscillate between negligible and astronomical levels from year to year, distinguishing humanitarian network design from the typical facility location problem.
+Because historical demand is consequentially not a reliable indication of future demand, we capture emergency demand uncertainty using machine learning demand forecasts.
+We build a robust optimization formulation by embedding these forecasts into uncertainty sets for the emergency demand parameters.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;map.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;We find that optimal facility locations are agnostic to emergency demand uncertainty, which lends confidence to this more permanent first-stage decision.
+Fulfillment costs meaningfully decrease as a result of the incorporation of demand forecasts into uncertainty sets, but inventory allocations are highly paranoid and sensitive to the specific demand forecast.
+This conclusion together with the invariant optimal network configuration indicates that the robust demand pre-positioning problem can be divorced from the facility location problem.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

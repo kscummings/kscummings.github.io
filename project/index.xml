@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Kayla Cummings</title>
+    <link>https://kscummings.github.io/project/</link>
+      <atom:link href="https://kscummings.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 30 Dec 2020 17:54:03 -0500</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>Projects</title>
+      <link>https://kscummings.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Somebody poisoned the waterhole!</title>
+      <link>https://kscummings.github.io/project/interdiction/</link>
+      <pubDate>Wed, 30 Dec 2020 17:54:03 -0500</pubDate>
+      <guid>https://kscummings.github.io/project/interdiction/</guid>
+      <description>&lt;p&gt;As a summer 2018 SULI intern at Oak Ridge National Laboratory, I simulated synthetic cyber-attacks on water distribution systems with naïve augmentations of sensor data. Then I performed deep transfer learning on synthetic-attack data to detect real cyber-attacks.&lt;/p&gt;
+&lt;p&gt;These two graduate projects extend my previous work by first replacing the naïve attack engine with deep learning, then with network interdiction.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Deliverable downloads:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;ornl_poster.pdf&#34; download&gt;ORNL poster&lt;/a&gt;, cleared for external circulation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;6_883.pdf&#34; download&gt;Deep learning report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;1_208.pdf&#34; download&gt;Network interdiction report&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;6883-modeling-with-machine-learning&#34;&gt;6.883 Modeling with Machine Learning:&lt;/h3&gt;
+&lt;p&gt;From Algorithms to Applications
+&lt;em&gt;Spring 2019&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In my final project for this course, I built an adversarial variational autoencoder (VAE) to generate synthetic attacks. The adversarial VAE variant includes a second neural network branch from the latent space whose task is to classify the reconstructed sensor readings as clean or compromised. The loss function is a linear combination of KL-divergence and binary cross-entropy to enforce smooth and clustered encoding.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;vae.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This approach achieved slight attack detection improvement over the naïve engine.&lt;/p&gt;
+&lt;h3 id=&#34;1208-resilient-networks&#34;&gt;1.208 Resilient Networks&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Fall 2020&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this course&amp;rsquo;s final project I turned to network interdiction models to add domain-specific knowledge for synthetic attack generation. I used network interdiction outcomes to identify critical links or network components which an attacker might target to maximize the effect of a single cyber-layer interference. These targeted links were translated into a distribution over the water distribution network&amp;rsquo;s cyber components. I used this distribution to model a potential adversary&amp;rsquo;s topological priorities.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;translation.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I generated synthetic attacks over the cyber components proportionally to the simulated component priority distributions.
+The results indicated that topology-informed synthetic attacks enable more sensitive, more specific, and less paranoid detection of true cyber-attacks than the topology-agnostic attack engines.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>You Liver and You Learn</title>
+      <link>https://kscummings.github.io/project/livers/</link>
+      <pubDate>Wed, 30 Dec 2020 17:43:32 -0500</pubDate>
+      <guid>https://kscummings.github.io/project/livers/</guid>
+      <description>&lt;p&gt;The Organ Procurement and Transplantation Network (OPTN) is in charge of allocating livers as they arrive to wait-listed candidates.
+Consensus among doctors is that a fair policy should prioritize patients whose conditions would deteriorate most quickly without a transplant.
+Current practice prioritizes patients who are most likely to die or become medically unfit for transplant within 3 months.
+
+&lt;a href=&#34;https://lids.mit.edu/people/students/sam-gilmour&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sam Gilmour,&lt;/a&gt;
+ 
+&lt;a href=&#34;https://www.linkedin.com/in/josh-wilde&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Josh Wilde,&lt;/a&gt;
+ and I used machine learning and optimization to explore candidate ranking policies based on projected post-transplant outcomes rather than pre-transplant vitality.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Deliverables&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;liver-poster.pdf&#34;&gt;Poster&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;6_867.pdf&#34;&gt;Final report&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;6867-machine-learning&#34;&gt;6.867 Machine Learning&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Fall 2019&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A policy based on post-transplant outcomes necessarily accounts for organ features as well as patient features.
+We formulated a maximum weighted matching model in the lineage of work by 
+&lt;a href=&#34;https://doi.org/10.1287/opre.1120.1138&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bertsimas &lt;em&gt;et al.&lt;/em&gt;&lt;/a&gt;
+
+The weights were equal to the gain that the transplant system would receive by matching an organ to a particular patient, quantified by organ acceptance likelihood and projected post-transplant survival.
+We further constrained the model by including demographic fairness considerations.
+We constructed a Lagrangean relaxation of the fairness constraints to obtain fairness-adjusted weights in a classical matching problem.&lt;/p&gt;
+&lt;img src=&#34;featured.png&#34; width=&#34;300\%&#34;&gt;
+&lt;p&gt;We required a method for which system benefits could be estimated for newly observed patient-organ pairs.
+We obtained these estimated benefits as the solutions to a standard OLS regression problem, in which patient and organ features predicted fairness-adjusted weights to the above matching problem.&lt;/p&gt;
+&lt;p&gt;We iterated with a dynamic policy that changes according to the patients on the waitlist.
+We hypothesized that the fairness-adjusted weights depend on the characteristics of the current patient waitlist and the organs available for transplant.
+Our strategy was to predict this dependence by regressing over batch-level organ and patient features to predict one fairness-adjusted weight in the static priority map.
+Collectively, the learned parameters formed a dynamic policy map generator that yielded fairness-adjusted weights for a given batch of patients and organs.&lt;/p&gt;
+&lt;p&gt;We built a model that simulates liver allocation and survival outcomes to benchmark the performance of our policies
+against existing ranking policies. Simulations showed that our policies resulted in approximately 1%
+more transplants and consequently 1% fewer pre-transplant deaths, with minimal effect on post-transplant
+morbidity and with continued fair allocation for targeted demographics. Furthermore, our
+dynamic policy performed at par with the static policy, indicating that its additional computational
+overhead may be unnecessary.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Are you sure that goes there?</title>
+      <link>https://kscummings.github.io/project/unhcr/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://kscummings.github.io/project/unhcr/</guid>
+      <description>&lt;p&gt;In this project, 
+&lt;a href=&#34;https://www.linkedin.com/in/josh-wilde&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Josh Wilde&lt;/a&gt;
+ and I used robust optimization and machine learning to capture emergency demand uncertainty in the joint humanitarian facility location and inventory pre-positioning problem.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Deliverables:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;unhcr_poster.pdf&#34;&gt;Poster&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;15_094.pdf&#34;&gt;Final report&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;15094j-robust-modeling-optimization-and-computation&#34;&gt;15.094J Robust Modeling, Optimization and Computation&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Spring 2019&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://doi.org/10.1016/j.jom.2016.05.009&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jahre &lt;em&gt;et al.&lt;/em&gt;&lt;/a&gt;
+ model the humanitarian network design problem for the UNHCR as a two-stage stochastic optimization problem. The first stage is a facility location problem, and the second stage is a stock pre-positioning problem that depends on the selected facility locations.&lt;/p&gt;
+&lt;p&gt;Josh and I augmented this work using robust optimization, whose theory seeks decisions that successfully navigate the trade-off between expected optimality and mitigation of parametric uncertainty.
+Emergency humanitarian demand can wildly oscillate between negligible and astronomical levels from year to year, distinguishing humanitarian network design from the typical facility location problem.
+Because historical demand is consequentially not a reliable indication of future demand, we capture emergency demand uncertainty using machine learning demand forecasts.
+We build a robust optimization formulation by embedding these forecasts into uncertainty sets for the emergency demand parameters.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;map.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;We find that optimal facility locations are agnostic to emergency demand uncertainty, which lends confidence to this more permanent first-stage decision.
+Fulfillment costs meaningfully decrease as a result of the incorporation of demand forecasts into uncertainty sets, but inventory allocations are highly paranoid and sensitive to the specific demand forecast.
+This conclusion together with the invariant optimal network configuration indicates that the robust demand pre-positioning problem can be divorced from the facility location problem.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

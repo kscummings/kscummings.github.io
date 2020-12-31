@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Kayla Cummings</title>
+    <link>https://kscummings.github.io/publication_types/1/</link>
+      <atom:link href="https://kscummings.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 02 Dec 2018 13:10:51 -0500</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>1</title>
+      <link>https://kscummings.github.io/publication_types/1/</link>
+    </image>
+    
+    <item>
+      <title>An Exploration of the Network Installation and Recovery Problem with Blackstart Nodes</title>
+      <link>https://kscummings.github.io/publication/blackstart/</link>
+      <pubDate>Sun, 02 Dec 2018 13:10:51 -0500</pubDate>
+      <guid>https://kscummings.github.io/publication/blackstart/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

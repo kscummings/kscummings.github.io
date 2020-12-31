@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Kayla Cummings</title>
+    <link>https://kscummings.github.io/tags/</link>
+      <atom:link href="https://kscummings.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 30 Dec 2020 17:54:03 -0500</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>Tags</title>
+      <link>https://kscummings.github.io/tags/</link>
+    </image>
+    
+    <item>
+      <title>deep learning</title>
+      <link>https://kscummings.github.io/tags/deep-learning/</link>
+      <pubDate>Wed, 30 Dec 2020 17:54:03 -0500</pubDate>
+      <guid>https://kscummings.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://kscummings.github.io/tags/machine-learning/</link>
+      <pubDate>Wed, 30 Dec 2020 17:54:03 -0500</pubDate>
+      <guid>https://kscummings.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>networks</title>
+      <link>https://kscummings.github.io/tags/networks/</link>
+      <pubDate>Wed, 30 Dec 2020 17:54:03 -0500</pubDate>
+      <guid>https://kscummings.github.io/tags/networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>healthcare</title>
+      <link>https://kscummings.github.io/tags/healthcare/</link>
+      <pubDate>Wed, 30 Dec 2020 17:43:32 -0500</pubDate>
+      <guid>https://kscummings.github.io/tags/healthcare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>optimization</title>
+      <link>https://kscummings.github.io/tags/optimization/</link>
+      <pubDate>Wed, 30 Dec 2020 17:43:32 -0500</pubDate>
+      <guid>https://kscummings.github.io/tags/optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>simulation</title>
+      <link>https://kscummings.github.io/tags/simulation/</link>
+      <pubDate>Wed, 30 Dec 2020 17:43:32 -0500</pubDate>
+      <guid>https://kscummings.github.io/tags/simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>game theory</title>
+      <link>https://kscummings.github.io/tags/game-theory/</link>
+      <pubDate>Mon, 28 Dec 2020 12:27:33 -0500</pubDate>
+      <guid>https://kscummings.github.io/tags/game-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transportation</title>
+      <link>https://kscummings.github.io/tags/transportation/</link>
+      <pubDate>Mon, 28 Dec 2020 12:27:33 -0500</pubDate>
+      <guid>https://kscummings.github.io/tags/transportation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>robust optimization</title>
+      <link>https://kscummings.github.io/tags/robust-optimization/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://kscummings.github.io/tags/robust-optimization/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

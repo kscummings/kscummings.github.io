@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>networks | Kayla Cummings</title>
+    <link>https://kscummings.github.io/tags/networks/</link>
+      <atom:link href="https://kscummings.github.io/tags/networks/index.xml" rel="self" type="application/rss+xml" />
+    <description>networks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 30 Dec 2020 17:54:03 -0500</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>networks</title>
+      <link>https://kscummings.github.io/tags/networks/</link>
+    </image>
+    
+    <item>
+      <title>Somebody poisoned the waterhole!</title>
+      <link>https://kscummings.github.io/project/interdiction/</link>
+      <pubDate>Wed, 30 Dec 2020 17:54:03 -0500</pubDate>
+      <guid>https://kscummings.github.io/project/interdiction/</guid>
+      <description>&lt;p&gt;As a summer 2018 SULI intern at Oak Ridge National Laboratory, I simulated synthetic cyber-attacks on water distribution systems with naïve augmentations of sensor data. Then I performed deep transfer learning on synthetic-attack data to detect real cyber-attacks.&lt;/p&gt;
+&lt;p&gt;These two graduate projects extend my previous work by first replacing the naïve attack engine with deep learning, then with network interdiction.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Deliverable downloads:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;ornl_poster.pdf&#34; download&gt;ORNL poster&lt;/a&gt;, cleared for external circulation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;6_883.pdf&#34; download&gt;Deep learning report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;1_208.pdf&#34; download&gt;Network interdiction report&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;6883-modeling-with-machine-learning&#34;&gt;6.883 Modeling with Machine Learning:&lt;/h3&gt;
+&lt;p&gt;From Algorithms to Applications
+&lt;em&gt;Spring 2019&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In my final project for this course, I built an adversarial variational autoencoder (VAE) to generate synthetic attacks. The adversarial VAE variant includes a second neural network branch from the latent space whose task is to classify the reconstructed sensor readings as clean or compromised. The loss function is a linear combination of KL-divergence and binary cross-entropy to enforce smooth and clustered encoding.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;vae.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This approach achieved slight attack detection improvement over the naïve engine.&lt;/p&gt;
+&lt;h3 id=&#34;1208-resilient-networks&#34;&gt;1.208 Resilient Networks&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Fall 2020&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In this course&amp;rsquo;s final project I turned to network interdiction models to add domain-specific knowledge for synthetic attack generation. I used network interdiction outcomes to identify critical links or network components which an attacker might target to maximize the effect of a single cyber-layer interference. These targeted links were translated into a distribution over the water distribution network&amp;rsquo;s cyber components. I used this distribution to model a potential adversary&amp;rsquo;s topological priorities.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;translation.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I generated synthetic attacks over the cyber components proportionally to the simulated component priority distributions.
+The results indicated that topology-informed synthetic attacks enable more sensitive, more specific, and less paranoid detection of true cyber-attacks than the topology-agnostic attack engines.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Designing First-mile Transportation Pricing Alliances with Endogenous Demand</title>
+      <link>https://kscummings.github.io/publication/alliance/</link>
+      <pubDate>Mon, 28 Dec 2020 12:27:33 -0500</pubDate>
+      <guid>https://kscummings.github.io/publication/alliance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Designing Pricing Alliances for First-mile Transportation Systems with Endogenous Demand</title>
+      <link>https://kscummings.github.io/talk/transit/</link>
+      <pubDate>Thu, 12 Nov 2020 12:30:00 -0145</pubDate>
+      <guid>https://kscummings.github.io/talk/transit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Exploration of the Network Installation and Recovery Problem with Blackstart Nodes</title>
+      <link>https://kscummings.github.io/publication/blackstart/</link>
+      <pubDate>Sun, 02 Dec 2018 13:10:51 -0500</pubDate>
+      <guid>https://kscummings.github.io/publication/blackstart/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
