@@ -206,6 +206,42 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-186352488-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-186352488-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -641,7 +677,7 @@
 <a href="https://mitsloan.mit.edu/faculty/directory/alexandre-jacquillat" target="_blank" rel="noopener">Alexandre Jacquillat</a>
  and 
 <a href="https://engineering.dartmouth.edu/community/faculty/vikrant-vaze" target="_blank" rel="noopener">Vikrant Vaze.</a>
- I am a 2018 recipient of the NSF Graduate Research Fellowship. As an undergraduate, I conducted research with the Cybersecurity Research Group at Oak Ridge National Laboratory, 
+ I am a 2018 recipient of the NSF Graduate Research Fellowship. As an undergraduate at Pomona College, I conducted research with the Cybersecurity Research Group at Oak Ridge National Laboratory, 
 <a href="http://reu.dimacs.rutgers.edu/~kaylac/" target="_blank" rel="noopener">DIMACS at Rutgers University,</a>
  the Mathematics Department at Harvey Mudd College, the Computer Science Department at Pomona College, and the 
 <a href="https://www.math.tamu.edu/undergraduate/research/REU/results/results2016.html" target="_blank" rel="noopener">Mathematics Department at Texas A&amp;M University.</a>
